@@ -21,7 +21,7 @@ module Kickstarter
     end
     
     def url
-      @url ||= File.join(Kickstarter::BASE_URL, link.attribute('href').to_s.split('?').first)
+      @url ||= File.join(link.attribute('href').to_s.split('?').first)
     end
     
     
