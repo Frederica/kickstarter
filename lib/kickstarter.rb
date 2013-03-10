@@ -21,13 +21,15 @@ module Kickstarter
     :photography => "photography",
     :technology  => "technology",
     :theatre     => "theater",
-    :writing     => "writing%20&%20publishing"
+    :writing     => "writing%20&%20publishing",
+    :hardware    => "hardware"
   }
   
   Type = {
     :recommended => 'recommended', 
     :popular     => 'popular', 
-    :successful  => 'successful'
+    :successful  => 'successful',
+    :most_funded => 'most-funded'
   }
   
   Lists = {
